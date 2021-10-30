@@ -11,6 +11,7 @@
 /* Setting up the body colour */
 body {
     color: var(--dark-color);
+    font-size: 1em;
 }
 
 /* Navigation Colour */
@@ -99,4 +100,42 @@ main>.container {
 
 .even {
     font-weight: bold;
+}
+
+table {
+    width: 90%;
+}
+
+.logo {
+    max-width: 400px;
+}
+
+.heroImage {
+    max-width: 200px;
+    max-height: 400px;
+}
+
+.oddRow {
+    background-color: dimgrey;
+}
+
+.evenRow {
+    background-color: lightgray;
+}
+
+.tableHeader {
+    background-color: #212121;
+    color: white;
+    font-size: 1.2em;
+}
+
+#heroText {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 5em;
+    margin: 0;
+    text-transform: uppercase;
+    color: midnightblue;
+    text-shadow: 2-x, 1px #292929;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: yellow;
 }
