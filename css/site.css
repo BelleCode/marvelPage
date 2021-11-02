@@ -81,7 +81,7 @@ footer .social>a:hover {
     color: rgb(11, 82, 214);
 }
 
-.checklist :li i {
+.checklist li i {
     color: var(-secondary-color);
 }
 
